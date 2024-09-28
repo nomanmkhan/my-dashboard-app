@@ -60,36 +60,3 @@ yarn start
 Open the app in your browser:
 
 The app should be running on http://localhost:3000. Open the link in your browser to see the application.
-
-
-Folder Structure
-Here is an overview of the project structure:
-
-bash
-Copy code
-src/
-│
-├── components/
-│   ├── AppItem.js           # Component for displaying individual apps
-│   ├── AppList.js           # Component for displaying the list of apps
-│   ├── AddAppModal.js       # Modal component for adding and editing apps
-│   ├── Loading.js           # Loading spinner component
-│   ├── Navbar.js            # Navbar component
-│
-├── context/
-│   └── AppContext.js        # Context for managing app state
-│
-├── hooks/
-│   └── useAuth.js           # Custom hook for authentication
-│
-├── pages/
-│   ├── Dashboard.js         # Dashboard page for managing apps
-│   ├── Login.js             # Login page
-│   ├── Register.js          # Register page
-│   ├── ResetPassword.js     # Password reset page
-│
-├── App.js                   # Main application file
-├── App.css                  # Global styles
-└── index.js                 # Entry point of the application
-
-
