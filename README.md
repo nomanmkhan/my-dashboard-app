@@ -1,14 +1,13 @@
-# my-dashboard-app
+# My Dashboard App
  
 A simple dashboard application built with React that allows users to register, log in, view a list of apps, create, edit, delete apps, and manage their subscription details.
 
 **Table of Contents**
-   \nFeatures
-   \nPrerequisites
+   Features
+   Prerequisites
    Installation
    Usage
    Folder Structure
-   License
    
 **Features**
   User Authentication: Register, log in, and reset passwords.
@@ -23,11 +22,11 @@ Before you begin, ensure you have the following software installed on your machi
   npm or yarn: Comes with Node.js
   
 Installation
-Clone the repository:
+Clone the repository: https://github.com/nomanmkhan/my-dashboard-app.git
 
 bash
 Copy code
-git clone https://github.com/your-username/my-dashboard-app.git
+git clone https://github.com/nomanmkhan/my-dashboard-app.git
 Navigate to the project directory:
 
 bash
@@ -61,3 +60,36 @@ yarn start
 Open the app in your browser:
 
 The app should be running on http://localhost:3000. Open the link in your browser to see the application.
+
+
+Folder Structure
+Here is an overview of the project structure:
+
+bash
+Copy code
+src/
+│
+├── components/
+│   ├── AppItem.js           # Component for displaying individual apps
+│   ├── AppList.js           # Component for displaying the list of apps
+│   ├── AddAppModal.js       # Modal component for adding and editing apps
+│   ├── Loading.js           # Loading spinner component
+│   ├── Navbar.js            # Navbar component
+│
+├── context/
+│   └── AppContext.js        # Context for managing app state
+│
+├── hooks/
+│   └── useAuth.js           # Custom hook for authentication
+│
+├── pages/
+│   ├── Dashboard.js         # Dashboard page for managing apps
+│   ├── Login.js             # Login page
+│   ├── Register.js          # Register page
+│   ├── ResetPassword.js     # Password reset page
+│
+├── App.js                   # Main application file
+├── App.css                  # Global styles
+└── index.js                 # Entry point of the application
+
+
