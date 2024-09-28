@@ -3,8 +3,8 @@
 A simple dashboard application built with React that allows users to register, log in, view a list of apps, create, edit, delete apps, and manage their subscription details.
 
 **Table of Contents**
-   Features
-   Prerequisites
+   \nFeatures
+   \nPrerequisites
    Installation
    Usage
    Folder Structure
