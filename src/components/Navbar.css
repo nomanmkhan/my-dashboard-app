@@ -1,0 +1,56 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+}
+
+.logout-button {
+    /* padding: 10px 20px; */
+    border: none;
+    border-radius: 5px;
+    background-color: #e63946;
+    color: white;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #d62839;
+}
+
+.dashboard-content {
+    margin-top: 60px;
+    /* Ensure the content doesn't hide behind the navbar */
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 15px;
+    }
+
+    .logo h1 {
+        font-size: 20px;
+    }
+
+    .logout-button {
+        padding: 8px 15px;
+    }
+}
